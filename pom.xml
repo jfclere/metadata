@@ -83,6 +83,8 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
+                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
             <plugin>
@@ -323,9 +325,9 @@
     </pluginRepositories>
 
     <scm>
-        <connection>scm:git:git@github.com:jboss/metadata.git</connection>
-        <url>scm:git:git@github.com:jboss/metadata.git</url>
-        <developerConnection>scm:git:git@github.com:jboss/metadata.git</developerConnection>
+        <connection>scm:git:git@github.com:jfclere/metadata.git</connection>
+        <url>scm:git:git@github.com:jfclere/metadata.git</url>
+        <developerConnection>scm:git:git@github.com:jfclere/metadata.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
