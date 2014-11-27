@@ -330,9 +330,9 @@
     </pluginRepositories>
 
     <scm>
-        <connection>scm:git:git@github.com:jfclere/metadata.git</connection>
-        <url>scm:git:git@github.com:jfclere/metadata.git</url>
-        <developerConnection>scm:git:git@github.com:jfclere/metadata.git</developerConnection>
+        <connection>scm:git:https://github.com/jfclere/metadata.git</connection>
+        <url>https://github.com/jfclere/metadata.git</url>
+        <developerConnection>scm:git:https://github.com/jfclere/metadata.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
